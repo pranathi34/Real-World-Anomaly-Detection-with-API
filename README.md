@@ -66,7 +66,12 @@ The trained model is loaded from a serialized `.pkl` file for efficient reuse.
 
 ---
 
-## Project Structure
+## How to Run the Project
+
+1. Open the notebooks in order to review data creation and model experiments.
+2. To start the API locally, run:
+python -m uvicorn api.app:app --reload
+3. Open the Browser and navigate to: http://127.0.0.1:8000/docs
 
 ## Project Structure
 
@@ -91,13 +96,5 @@ fraud_detection_assignment/
 │
 └── README.md
 
----
-
-## How to Run the Project
-
-1. Open the notebooks in order to review data creation and model experiments.
-2. To start the API locally, run:
-python -m uvicorn api.app:app --reload
-3. Open the Browser and navigate to: http://127.0.0.1:8000/docs
 
 
