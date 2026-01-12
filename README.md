@@ -68,27 +68,28 @@ The trained model is loaded from a serialized `.pkl` file for efficient reuse.
 
 ## Project Structure
 
+## Project Structure
+
+```text
 fraud_detection_assignment/
-│
 ├── data/
-│ └── transactions.csv
+│   └── transactions.csv
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_isolation_forest.ipynb
-│ ├── 03_one_class_svm.ipynb
-│ └── 04_autoencoder.ipynb
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_isolation_forest.ipynb
+│   ├── 03_one_class_svm.ipynb
+│   └── 04_autoencoder.ipynb
 │
 ├── models/
-│ └── isolation_forest.pkl
+│   └── isolation_forest.pkl
 │
 ├── api/
-│ └── app.py
+│   └── app.py
 │
 ├── reports/
 │
 └── README.md
-
 
 ---
 
